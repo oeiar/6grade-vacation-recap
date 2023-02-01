@@ -303,7 +303,7 @@
 - 04:34:44 [나만이 없는 거리](https://www.laftel.net/item/28764/)
 - 05:26:07 [청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다](https://www.laftel.net/item/38921/)
 - 01:30:17 [청춘 돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다](https://www.laftel.net/item/39560/)
-- 5:10:14 [유루캠△ 1기 - 판권 부활](https://www.laftel.net/item/40164/)
+- 05:10:14 [유루캠△ 1기 - 판권 부활](https://www.laftel.net/item/40164/)
 
 > 93:59:25 -> `3:21:59:25`
 
