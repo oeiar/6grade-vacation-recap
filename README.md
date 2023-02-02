@@ -269,21 +269,48 @@
 
 ### 유루캠△ 1기 - 판권 부활
 
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-23:50
-24:14
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 23:50
+- 24:14
 
-310:14 -> 5:10:14
+> 310:14 -> 5:10:14
+
+### 유루캠△ 2기
+
+- 23:52
+- 23:52
+- 23:52
+- 23:52
+
+> 95:28 -> `1:35:28`
+
+### 해고당한 암흑병사(30대)의 슬로우한 세컨드 라이프
+
+- 24:02
+- 24:02
+- 24:02
+- 24:02
+
+> 96:8 -> `1:36:8`
+
+### 전생 왕녀와 천재 영애의 마법 혁명
+
+- 23:50
+- 23:51
+- 23:51
+- 23:50
+
+> 95:22 -> `1:35:22`
 
 ## 총합
 
@@ -304,8 +331,11 @@
 - 05:26:07 [청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다](https://www.laftel.net/item/38921/)
 - 01:30:17 [청춘 돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다](https://www.laftel.net/item/39560/)
 - 05:10:14 [유루캠△ 1기 - 판권 부활](https://www.laftel.net/item/40164/)
+- 01:35:28 [유루캠△ 2기](https://www.laftel.net/item/40164/)
+- 01:36:08 [해고당한 암흑병사(30대)의 슬로우한 세컨드 라이프](https://www.laftel.net/item/41224/)
+- 01:35:22 [전생 왕녀와 천재 영애의 마법 혁명](https://www.laftel.net/item/41210/)
 
-> 93:59:25 -> `3:21:59:25`
+> 98:46:23 -> `04:02:46:23`
 
 ## 정리
 
@@ -324,3 +354,169 @@
 > 매일 약2.3시간씩 애니를 봤고,
 > 평균적으로 자유 시간의 1/3을 애니보는데 사용했다!
 > 라는 결과가 나온다.
+
+## Scripts for ani
+
+### min:sec adder
+
+```js
+function a(x) {
+  let xs = x
+    .split("\n")
+    .map((i) => i.replace("-", "").replaceAll(" ", "").split(":"));
+  let sec = 0;
+  let min = 0;
+  xs.forEach((i) => (sec += Number(i[1])));
+  xs.forEach((i) => (min += Number(i[0])));
+  min += Math.floor(sec / 60);
+  sec %= 60;
+  return [min, sec];
+}
+```
+
+### min:sec 2 hour:min:sec
+
+```js
+function b(x) {
+  let xs = x.split(":");
+  let hours = Math.floor(Number(xs[0]) / 60);
+  return [hours, Number(xs[0]) % 60, Number(xs[1])];
+}
+```
+
+### markdownlize
+
+```js
+function markdownlize(x) {
+  x = x
+    .split("\n")
+    .map((i) => (i.indexOf("- ") == -1 ? "- " + i : i))
+    .join("\n");
+  console.log(x);
+  let mands = a(x);
+  let handmands = b(mands.join(":"));
+  return `${x}\n\n> ${mands.join(":")} -> \`${handmands.join(":")}\``;
+}
+```
+
+### 통합본
+
+```js
+function a(x) {
+  let xs = x
+    .split("\n")
+    .map((i) => i.replace("-", "").replaceAll(" ", "").split(":"));
+  let sec = 0;
+  let min = 0;
+  xs.forEach((i) => (sec += Number(i[1])));
+  xs.forEach((i) => (min += Number(i[0])));
+  min += Math.floor(sec / 60);
+  sec %= 60;
+  return [min, sec];
+}
+
+function b(x) {
+  let xs = x.split(":");
+  let hours = Math.floor(Number(xs[0]) / 60);
+  return [hours, Number(xs[0]) % 60, Number(xs[1])];
+}
+
+function markdownlize(x) {
+  x = x
+    .split("\n")
+    .map((i) => (i.indexOf("- ") == -1 ? "- " + i : i))
+    .join("\n");
+  console.log(x);
+  let mands = a(x);
+  let handmands = b(mands.join(":"));
+  return `${x}\n\n> ${mands.join(":")} -> \`${handmands.join(":")}\``;
+}
+```
+
+### scripts for all ani
+
+### hour:min:sec adder
+
+```js
+function c(x) {
+  let xs = x.split("\n").map((i) => i.split(":"));
+  let sec = 0;
+  let min = 0;
+  let hour = 0;
+  xs.forEach((i) => (sec += Number(i[2])));
+  xs.forEach((i) => (min += Number(i[1])));
+  xs.forEach((i) => (hour += Number(i[0])));
+  min += Math.floor(sec / 60);
+  sec %= 60;
+  hour += Math.floor(min / 60);
+  min %= 60;
+  return [hour, min, sec];
+}
+```
+
+### hour:min:sec 2 day:hour:min:sec
+
+```js
+function d(x) {
+  let axx = x.split(":").map((i) => Number(i));
+  let day = Math.floor(axx[0] / 24);
+  let nhour = axx[0] % 24;
+  return [day, nhour, axx[1], axx[2]];
+}
+```
+
+### markdownlize_full
+
+```js
+function markdownlize_full(x) {
+  let xy = x
+    .split("\n")
+    .map((i) => i.replace("-", "").replaceAll(" ", "").split("[")[0])
+    .join("\n");
+  let cxy = c(xy);
+  return `${x}\n\n> ${cxy
+    .map((i) => i.toString().padStart(2, "0"))
+    .join(":")} -> \`${d(cxy.join(":"))
+    .map((i) => i.toString().padStart(2, "0"))
+    .join(":")}\``;
+}
+```
+
+### 통합본
+
+```js
+function c(x) {
+  let xs = x.split("\n").map((i) => i.split(":"));
+  let sec = 0;
+  let min = 0;
+  let hour = 0;
+  xs.forEach((i) => (sec += Number(i[2])));
+  xs.forEach((i) => (min += Number(i[1])));
+  xs.forEach((i) => (hour += Number(i[0])));
+  min += Math.floor(sec / 60);
+  sec %= 60;
+  hour += Math.floor(min / 60);
+  min %= 60;
+  return [hour, min, sec];
+}
+
+function d(x) {
+  let axx = x.split(":").map((i) => Number(i));
+  let day = Math.floor(axx[0] / 24);
+  let nhour = axx[0] % 24;
+  return [day, nhour, axx[1], axx[2]];
+}
+
+function markdownlize_full(x) {
+  let xy = x
+    .split("\n")
+    .map((i) => i.replace("-", "").replaceAll(" ", "").split("[")[0])
+    .join("\n");
+  let cxy = c(xy);
+  return `${x}\n\n> ${cxy
+    .map((i) => i.toString().padStart(2, "0"))
+    .join(":")} -> \`${d(cxy.join(":"))
+    .map((i) => i.toString().padStart(2, "0"))
+    .join(":")}\``;
+}
+```
