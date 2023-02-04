@@ -375,7 +375,7 @@
 - 05:07:12 [소드 아트 온라인 엘리시제이션 War of Underworld part 1](https://www.laftel.net/item/39495/)
 - 05:09:48 [소드 아트 온라인 엘리시제이션 War of Underworld part 2](https://www.laftel.net/item/39735/)
 - 01:37:35 [소드 아트 온라인 -프로그레시브-: 별 없는 밤의 아리아](https://www.laftel.net/item/40563/)
-- 011:2:58 [Re : 제로부터 시작하는 이세계 생활 감독판](https://www.laftel.net/item/39644/)
+- 11:02:58 [Re : 제로부터 시작하는 이세계 생활 감독판](https://www.laftel.net/item/39644/)
 - 01:16:22 [Re : 제로부터 시작하는 이세계 생활 - 빙결의 인연](https://www.laftel.net/item/39880/)
 - 05:46:05 [Re : 제로부터 시작하는 이세계 생활 2기 part 1](https://www.laftel.net/item/39852/)
 - 05:52:42 [Re : 제로부터 시작하는 이세계 생활 2기 part 2](https://www.laftel.net/item/40153/)
