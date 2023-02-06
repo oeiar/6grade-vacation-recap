@@ -385,31 +385,33 @@
 
 ## 총합
 
-- 09:50:47 [소드 아트 온라인 1기](https://www.laftel.net/item/22643/)
-- 09:50:49 [소드 아트 온라인 2기](https://www.laftel.net/item/23923/)
-- 02:00:28 [소드 아트 온라인 오디널 스케일](https://www.laftel.net/item/37159/)
-- 10:10:42 [소드 아트 온라인 엘리시제이션](https://www.laftel.net/item/38910/)
-- 05:07:12 [소드 아트 온라인 엘리시제이션 War of Underworld part 1](https://www.laftel.net/item/39495/)
-- 05:09:48 [소드 아트 온라인 엘리시제이션 War of Underworld part 2](https://www.laftel.net/item/39735/)
-- 01:37:35 [소드 아트 온라인 -프로그레시브-: 별 없는 밤의 아리아](https://www.laftel.net/item/40563/)
-- 11:02:58 [Re : 제로부터 시작하는 이세계 생활 감독판](https://www.laftel.net/item/39644/)
-- 01:16:22 [Re : 제로부터 시작하는 이세계 생활 - 빙결의 인연](https://www.laftel.net/item/39880/)
-- 05:46:05 [Re : 제로부터 시작하는 이세계 생활 2기 part 1](https://www.laftel.net/item/39852/)
-- 05:52:42 [Re : 제로부터 시작하는 이세계 생활 2기 part 2](https://www.laftel.net/item/40153/)
-- 04:47:35 [건어물 여동생 우마루짱](https://www.laftel.net/item/25020/)
-- 04:45:00 [건어물 여동생! 우마루짱 R (2기)](https://www.laftel.net/item/37971/)
-- 04:34:44 [나만이 없는 거리](https://www.laftel.net/item/28764/)
-- 05:26:07 [청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다](https://www.laftel.net/item/38921/)
-- 01:30:17 [청춘 돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다](https://www.laftel.net/item/39560/)
-- 05:10:14 [유루캠△ 1기 - 판권 부활](https://www.laftel.net/item/40164/)
-- 05:10:16 [유루캠△ 2기](https://www.laftel.net/item/40164/)
-- 01:36:08 [해고당한 암흑병사(30대)의 슬로우한 세컨드 라이프](https://www.laftel.net/item/41224/)
-- 01:35:22 [전생 왕녀와 천재 영애의 마법 혁명](https://www.laftel.net/item/41210/)
-- 04:45:43 [아픈 건 싫으니까 방어력에 올인하려고 합니다](https://www.laftel.net/item/39648)
-- 01:35:00 [아픈 건 싫으니까 방어력에 올인하려고 합니다 2기](https://www.laftel.net/item/41261)
-- 01:36:28 [터무니없는 스킬로 이세계 방랑 밥](https://www.laftel.net/item/41218)
-- 02:00:00 [이세계 유유자적 농가](https://www.laftel.net/item/41198)
-- 04:46:10 [곰 곰 곰 베어](https://www.laftel.net/item/40006)
+| 시간 | 이름 | 상태 | 링크 |
+|-----|-----|---|----|
+| 09:50:47 | 소드 아트 온라인 1기 | 완 | [링크](https://www.laftel.net/item/22643/) |
+| 09:50:49 | 소드 아트 온라인 2기 | 완 | [링크](https://www.laftel.net/item/23923/) |
+| 02:00:28 | 소드 아트 온라인 오디널 스케일 | 완 | [링크](https://www.laftel.net/item/37159/) |
+| 10:10:42 | 소드 아트 온라인 엘리시제이션 | 완 | [링크](https://www.laftel.net/item/38910/) |
+| 05:07:12 | 소드 아트 온라인 엘리시제이션 War of Underworld part 1 | 완 | [링크](https://www.laftel.net/item/39495/) |
+| 05:09:48 | 소드 아트 온라인 엘리시제이션 War of Underworld part 2 | 완 | [링크](https://www.laftel.net/item/39735/) |
+| 01:37:35 | 소드 아트 온라인 -프로그레시브-: 별 없는 밤의 아리아 | 완 | [링크](https://www.laftel.net/item/40563/) |
+| 11:02:58 | Re : 제로부터 시작하는 이세계 생활 감독판 | 완 | [링크](https://www.laftel.net/item/39644/) |
+| 01:16:22 | Re : 제로부터 시작하는 이세계 생활 - 빙결의 인연 | 완 | [링크](https://www.laftel.net/item/39880/) |
+| 05:46:05 | Re : 제로부터 시작하는 이세계 생활 2기 part 1 | 완 | [링크](https://www.laftel.net/item/39852/) |
+| 05:52:42 | Re : 제로부터 시작하는 이세계 생활 2기 part 2 | 완 | [링크](https://www.laftel.net/item/40153/) |
+| 04:47:35 | 건어물 여동생 우마루짱 | 완 | [링크](https://www.laftel.net/item/25020/) |
+| 04:45:00 | 건어물 여동생! 우마루짱 R (2기) | 완 | [링크](https://www.laftel.net/item/37971/) |
+| 04:34:44 | 나만이 없는 거리 | 완 | [링크](https://www.laftel.net/item/28764/) |
+| 05:26:07 | 청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다 | 완 | [링크](https://www.laftel.net/item/38921/) |
+| 01:30:17 | 청춘 돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다 | 완 | [링크](https://www.laftel.net/item/39560/) |
+| 05:10:14 | 유루캠△ 1기 - 판권 부활 | 완 | [링크](https://www.laftel.net/item/40164/) |
+| 05:10:16 | 유루캠△ 2기 | 완 | [링크](https://www.laftel.net/item/40164/) |
+| 01:36:08 | 해고당한 암흑병사(30대)의 슬로우한 세컨드 라이프 | 방 | [링크](https://www.laftel.net/item/41224/) |
+| 01:35:22 | 전생 왕녀와 천재 영애의 마법 혁명 | 방 | [링크](https://www.laftel.net/item/41210/) |
+| 04:45:43 | 아픈 건 싫으니까 방어력에 올인하려고 합니다 | 완 | [링크](https://www.laftel.net/item/39648) |
+| 01:35:00 | 아픈 건 싫으니까 방어력에 올인하려고 합니다 2기 | 방 | [링크](https://www.laftel.net/item/41261) |
+| 01:36:28 | 터무니없는 스킬로 이세계 방랑 밥 | 방 | [링크](https://www.laftel.net/item/41218) |
+| 02:00:00 | 이세계 유유자적 농가 | 방 | [링크](https://www.laftel.net/item/41198) |
+| 04:46:10 | 곰 곰 곰 베어 | 완 | [링크](https://www.laftel.net/item/40006) |
 
 > 117:04:32 -> `04:21:04:32`
 
