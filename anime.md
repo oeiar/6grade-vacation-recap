@@ -400,7 +400,7 @@
 | 05:52:42 | Re : 제로부터 시작하는 이세계 생활 2기 part 2 | 완 | [링크](https://www.laftel.net/item/40153/) |
 | 04:47:35 | 건어물 여동생 우마루짱 | 완 | [링크](https://www.laftel.net/item/25020/) |
 | 04:45:00 | 건어물 여동생! 우마루짱 R (2기) | 완 | [링크](https://www.laftel.net/item/37971/) |
-| 04:34:44 | 나만이 없는 거리 | 완 | [링크](https://www.laftel.net/item/28764/) |
+| 04:34:44 | 나만이 없는 거리 (작화 애바, 보지 ) | 완 | [링크](https://www.laftel.net/item/28764/) |
 | 05:26:07 | 청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다 | 완 | [링크](https://www.laftel.net/item/38921/) |
 | 01:30:17 | 청춘 돼지는 꿈꾸는 소녀의 꿈을 꾸지 않는다 | 완 | [링크](https://www.laftel.net/item/39560/) |
 | 05:10:14 | 유루캠△ 1기 - 판권 부활 | 완 | [링크](https://www.laftel.net/item/40164/) |
